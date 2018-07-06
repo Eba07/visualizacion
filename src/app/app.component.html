@@ -1,20 +1,33 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+
+<script src="../../graph.js"></script>
+<h2> Movilidad MADRID </h2>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Correlacion de las variables con la tasa de movilidad:</h1>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md.3">
+      <div class="form-group">
+        <label for="varSelector">Selecciona la variable</label>
+        <select class="form-control" id="varSelector" data-name="var-selector">
+          <option value="afiliados-ss_PCP">Afiliados SS por cada 100 personas</option>
+          <option value="autonomos_PCP">Nº Autónomos por cada 100 personas</option>
+          <option value="empresas_PCP">Nº Empresas por cada 100 personas</option>
+          <option value="personas-paradas_PCP">Nº Parados por cada 100 personas</option>
+          <option value="poblacion">Población</option>
+          <option value="renta-bruta-media">Renta Bruta Media</option>
+          <option value="renta-disponible-media">Renta Disponible Media</option>
+          <option value="viviendas-familiares_PCP">Viviendas familiares por cada 100 personas</option>
+          <option value="viviendas-principales_PCP">Viviendas principales por cada 100 personas</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-9">
+      <div id="vis">
+      </div>
+    </div>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
